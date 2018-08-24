@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Meaningless Scribble</title>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../images/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../images/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../images/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../images/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../images/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../images/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="../images/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../images/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+		<link rel="manifest" href="../images/favicon/manifest.json">
+		<meta name="msapplication-navbutton-color" content="#3F51B5">
+		<meta name="msapplication-TileColor" content="#3F51B5">
+		<meta name="msapplication-TileImage" content="../images/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#3F51B5">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#3F51B5">
+		<!--KakaoTalk URL preview -->
+		<meta content='website' property='og:type'>
+		<meta content='https://rwe.kr/ms/' property='og:url'>
+		<meta content='M.S. Index List' property='og:title'>
+		<meta content='Index List for The Meaningless Scribble' property='og:description'>
+		<meta content='http://krang.dothome.co.kr/meaningless/%EC%9D%98%EB%AF%B8%EC%97%86%EB%8A%94%20%EB%81%84%EC%A0%81%EC%9E%84%20%ED%83%80%EC%9D%B4%ED%8B%80.png' property='og:image'>
+	</head>
+	<body>
+		<nav>
+			<div class="nav-wrapper light-blue lighten-2">
+				<a href="#" class="brand-logo center">The Meaningless Scribble</a>
+			</div>
+		</nav>
+        <!-- Before Entrance -->
+		<table class="highlight centered">
+			<thead class="light-blue lighten-3">
+				<tr>
+					<th data-field="No">No</th>
+					<th data-field="Title">Title</th>
+					<th data-field="Hint">Hint</th>
+					<th data-field="Answer">Answer</th>
+				<tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/newstart.htm">Newly Remade</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('You can see it frequently on brain quiz', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="2">GET</a></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/previous/character.htm">I Should Sleep, But I can't</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('They are irrational', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="3">GET</a></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/novel/tolkien.htm">Endeavor not to give up</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Elemental in physics', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="quark">GET</a></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/big/bang.htm">Front Headache</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Related with movie', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top"a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="time">GET</a></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/infinite/decimals.htm">Lapse of Memory</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Just symbolize', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="훈민정음">GET</a></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><b><a target="_blank" href="http://krang.dothome.co.kr/meaningless/time/goesby.htm"> Code Page</a></b></td>
+					<td></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="latestlabyrinth"><b>GET</b></a></td>
+					<!-- http://krang.dothome.co.kr/meaningless/time/starting.htm
+						http://krang.dothome.co.kr/meaningless/time/next.htm -->
+				</tr>
+				<tr>
+					<td>6</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/time/at.htm">Isotope-Z</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Big bang!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="light">GET</a></td>
+					<!-- http://krang.dothome.co.kr/meaningless/to/you.htm
+						http://krang.dothome.co.kr/meaningless/to/me.htm -->
+				</tr>
+				<tr>
+					<td>7</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/to/2000.htm">Era of Carbon</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Don\'t take it too seriously', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="6">GET</a></td>
+					<!-- http://krang.dothome.co.kr/meaningless/trap/7even.htm -->
+				</tr>
+				<tr>
+					<td>8</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/trap/soso.htm">Controversial Proof</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('You really need it?', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="고조선">GET</a></td>
+					<!-- http://krang.dothome.co.kr/meaningless/co/operate.htm -->
+				</tr>
+				<tr>
+					<td>9</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/co/teaching.htm">Your Responsibility for Those</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('You should think about Greenhouse effect', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="venus">GET</a></td>
+					<!-- http://krang.dothome.co.kr/meaningless/myst/must.htm
+						http://krang.dothome.co.kr/meaningless/myst/icant.htm
+						http://krang.dothome.co.kr/meaningless/myst/ican.htm
+						http://krang.dothome.co.kr/meaningless/myst/wecan.htm
+						http://krang.dothome.co.kr/meaningless/myst/wecando.htm -->
+				</tr>
+				<tr>
+					<td>10</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/myst/it.htm">Conception of yourself</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Blueshift', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="andromeda">GET</a></td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/1stend/again.htm">Absolute Inequality</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="ship / type">GET</a></td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="row">
+			<div class="col s12">
+				<ul class="tabs" style="overflow-x: hidden;">
+					<li class="tab col s6"><a href="#ship"><font color="#81d4fa">S</font></a></li>
+					<li class="tab col s6"><a href="#type"><font color="#81d4fa">T</font></a></li>
+				</ul>
+			</div>
+			<div id="ship" class="col s12">
+				<table class="highlight centered">
+					<thead class="light-blue lighten-3">
+						<tr>
+							<th data-field="No">No</th>
+							<th data-field="Title">Title</th>
+							<th data-field="Hint">Hint</th>
+							<th data-field="Answer">Answer</th>
+						<tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td><b><a target="_blank" href="http://krang.dothome.co.kr/meaningless/inside/gravity.htm">Code Page</a><b></td>
+							<td></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="spectroscopicbinaries"><b>GET</b></a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/inside/suicide.htm -->
+						</tr>
+						<tr>
+							<td>12</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/inside/hoo.htm">What did we do?</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="태극">GET</a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/mongol/ian.htm
+								http://krang.dothome.co.kr/meaningless/mongol/sorry.htm -->
+						</tr>
+						<tr>
+							<td>13</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/mongol/friend.htm">Approaching Fear</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="japanophobia">GET</a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/mr/lol.htm
+								http://krang.dothome.co.kr/meaningless/mr/whatnow.htm -->
+						</tr>
+						<tr>
+							<td>14</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/mr/looky.htm">Never odd or even</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="25">GET</a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/you/liar.htm
+								http://krang.dothome.co.kr/meaningless/you/murderer.htm -->
+						</tr>
+						<tr>
+							<td>15</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/you/sorry.htm">Myths about you</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="faeriesaireanddeathwaltz">GET</a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/sponge/killed.htm -->
+						</tr>
+						<tr>
+							<td>16</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/sponge/snail.htm">Unusual Situation</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="plane / schoolbell">GET</a></td>
+							<!-- plane : http://krang.dothome.co.kr/meaningless/funny/joke.htm
+								schoolbell : http://krang.dothome.co.kr/meaningless/funnier/joking.htm -->
+						</tr>
+					</tbody>
+				</table>
+				<div class="row">
+					<div class="col s12">
+						<ul class="tabs" style="overflow-x: hidden;">
+							<li class="tab col s6"><a href="#plane"><font color="#81d4fa">P</font></a></li>
+							<li class="tab col s6"><a href="#schoolbell"><font color="#81d4fa">S</font></a></li>
+						</ul>
+					</div>
+					<div id="plane" class="col s12">
+						<table class="highlight centered">
+							<thead class="light-blue lighten-3">
+								<tr>
+									<th data-field="No">No</th>
+									<th data-field="Title">Title</th>
+									<th data-field="Hint">Hint</th>
+									<th data-field="Answer">Answer</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>17</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/funny/kia.htm">Longing for Boredom</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="45">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/end/start.htm
+										http://krang.dothome.co.kr/meaningless/end/none.htm
+										http://krang.dothome.co.kr/meaningless/end/god.htm -->
+								</tr>
+								<tr>
+									<td>18</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/end/godd.htm">Collapse of the Sky</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="13">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/finished/vanish.htm -->
+								</tr>
+								<tr>
+									<td>19</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/finished/era.htm">Exception in Perfection</a> <font color="red">❓</font></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="32">GET</a></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td><b><a target="_blank" href="http://krang.dothome.co.kr/meaningless/rain/ing.htm">Code Page</a><b></td>
+									<td></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="coastalterrace"><b>GET</b></a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/rain/heavily.htm http://krang.dothome.co.kr/meaningless/rain/yes.htm -->
+								</tr>
+								<tr>
+									<td>20</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/rain/no.htm">Always Negative Mind</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="pluto">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/ill/helpyou.htm
+										http://krang.dothome.co.kr/meaningless/ill/ok.htm -->
+								</tr>
+								<tr>
+									<td>21</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/ill/idid.htm">Leaking rain through broken umbrella</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="24절기">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/shower/balance.htm
+										http://krang.dothome.co.kr/meaningless/shower/free.htm -->
+								</tr>
+								<tr>
+									<td>22</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/shower/imun.htm">High-enriched Uranium</a> <font color="red">❓</font></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="1289109">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/lets/start.htm -->
+								</tr>
+								<tr>
+									<td>23</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/lets/roll.htm">Summary of 167th Paragraph</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="aprilfoolsday">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/isaw/this.htm
+										http://krang.dothome.co.kr/meaningless/isaw/that.htm -->
+								</tr>
+								<tr>
+									<td>24</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/isaw/it.htm">It resulted in death of squirrels</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="방">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/ok/start.htm
+										http://krang.dothome.co.kr/meaningless/ok/bang.htm -->
+								</tr>
+								<tr>
+									<td>25</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/ok/first.htm">Sophisticated Philosophy</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="abduction">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/haji/maruyo.htm
+										http://krang.dothome.co.kr/meaningless/haji/me.htm
+										http://krang.dothome.co.kr/meaningless/haji/masite.htm
+										http://krang.dothome.co.kr/meaningless/haji/al.htm -->
+								</tr>
+								<tr>
+									<td>26</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/haji/ka.htm">Inferior nuisance</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="cocoon">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/east/sea.htm -->
+								</tr>
+								<tr>
+									<td>27</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/east/ern.htm">Caution for Radioactive</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="nuclearfusion">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/solar/system.htm
+										http://krang.dothome.co.kr/meaningless/solar/sunny.htm -->
+								</tr>
+								<tr>
+									<td>28</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/solar/lunar.htm">Chemistry Mania</a> <font color="red">❓</font></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('\'모든 것이 시작되는 이곳에, 또 다른 입구가 있나니\', pieces, day1, 7', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="despair / destroy">GET</a></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="row">
+							<div class="col s12">
+								<ul class="tabs" style="overflow-x: hidden;">
+									<li class="tab col s6"><a href="#despair"><font color="#81d4fa">R</font></a></li>
+									<li class="tab col s6"><a href="#destroy"><font color="#81d4fa">Y</font></a></li>
+								</ul>
+							</div>
+							<div id="despair" class="col s12">
+								<table class="highlight centered">
+									<thead class="light-blue lighten-3">
+										<tr>
+											<th data-field="No">No</th>
+											<th data-field="Title">Title</th>
+											<th data-field="Hint">Hint</th>
+											<th data-field="Answer">Answer</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td></td>
+											<td><b><a target="_blank" href="http://krang.dothome.co.kr/meaningless/desolate/city.htm">Code Page</a><b></td>
+											<td></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="destrudo"><b>GET</b></a></td>
+											<!-- http://krang.dothome.co.kr/meaningless/desolate/2.htm http://krang.dothome.co.kr/meaningless/desolate/21.htm -->
+										</tr>
+										<tr>
+											<td>29</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/desolate/3.htm">Surrounded with CO<sub>2</sub></a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="charlesvalentinalkan">GET</a></td>
+											<!-- http://krang.dothome.co.kr/meaningless/accepted/daisuki.htm -->
+										</tr>
+										<tr>
+											<td>30</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/accepted/iwantyou.htm">Directly Smell NH<sub>3</sub></a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="睦">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/that/was.htm http://krang.dothome.co.kr/meaningless/that/scary.htm -->
+										</tr>
+										<tr>
+											<td>31</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/that/whoa.htm">150BPM Heartbeat</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Reverse it', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="hell">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/olk/go.htm http://krang.dothome.co.kr/meaningless/olk/try.htm http://krang.dothome.co.kr/meaningless/olk/myvoice.htm http://krang.dothome.co.kr/meaningless/olk/youcant.htm http://krang.dothome.co.kr/meaningless/olk/leave.htm -->
+										</tr>
+										<tr>
+											<td>32</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/olk/tohear.htm">Subtle Agenda</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="84673">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/myvoice/approach.htm http://krang.dothome.co.kr/meaningless/myvoice/u.htm -->
+										</tr>
+										<tr>
+											<td>33</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/myvoice/you.htm">Deuterium Dioxide <font color="red">❓</font></a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="1887">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/bottom/their.htm http://krang.dothome.co.kr/meaningless/bottom/its.htm http://krang.dothome.co.kr/meaningless/bottom/time.htm -->
+										</tr>
+										<tr>
+											<td>34</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/bottom/packing.htm">As it happened She killed him</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="significant">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/bottom/significant.htm?id=significant http://krang.dothome.co.kr/meaningless/new/story.htm -->
+										</tr>
+										<tr>
+											<td>35</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/new/what.htm">Chances are that you are killed</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="2199023255552">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/whatthe/nope.htm -->
+										</tr>
+										<tr>
+											<td>36</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/whatthe/problem.htm">Windsurfing in the wind</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="IUKFH">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/3/third.htm -->
+										</tr>
+										<tr>
+											<td>37</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/3/out.htm">My Reaction from your action</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('See playlists', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="611039128114752">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/wanttofinish/latest.htm -->
+										</tr>
+										<tr>
+											<td>38</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/wanttofinish/lately.htm">Waiting for Sunday Morning <font color="red">❓</font></a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="0000">GET</a></td>
+										</tr>
+										<tr>
+											<td>39</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/allnight/waking.htm">Krang, Dinosaur</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Chinese Character', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="monomial">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/allnight/monomial.htm?id=monomial http://krang.dothome.co.kr/meaningless/allnight/afterall.htm -->
+										</tr>
+                                        <tr>
+                                            <td></td>
+                                            <td><b><a target="_blank" href="                                    http://krang.dothome.co.kr/meaningless/allnight/getyourcode.htm"><font color="red">Code4</font></a><b></td>
+                                            <td></td>
+                                            <td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="B26"><b>GET</b></a></td>
+                                        </tr>
+									</tbody>
+								</table>
+							</div>
+							<div id="destroy" class="col s12">
+								<table class="highlight centered">
+									<thead class="light-blue lighten-3">
+										<tr>
+											<th data-field="No">No</th>
+											<th data-field="Title">Title</th>
+											<th data-field="Hint">Hint</th>
+											<th data-field="Answer">Answer</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td></td>
+											<td><b><a target="_blank" href="http://krang.dothome.co.kr/meaningless/lycirne/thanks.htm">Code Page</a><b></td>
+											<td></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="lycirne"><b>GET</b></a></td>
+											<!-- http://krang.dothome.co.kr/meaningless/lycirne/sulne.htm -->
+										</tr>
+										<tr>
+											<td>29</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/lycirne/westsea.htm">Killer Game</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="m">GET</a></td>
+                                            <!--http://krang.dothome.co.kr/meaningless/whatday/today.htm http://krang.dothome.co.kr/meaningless/whatday/hm.htm -->
+										</tr>
+										<tr>
+											<td>30</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/whatday/goschool.htm">Systematic Bias</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="india">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/eventually/accent.htm http://krang.dothome.co.kr/meaningless/eventually/staccato.htm -->
+										</tr>
+										<tr>
+											<td>31</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/eventually/dacapo.htm">On Valentine's Day</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Relation', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="revolution">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/de/ream.htm http://krang.dothome.co.kr/meaningless/de/wiz.htm -->
+										</tr>
+										<tr>
+											<td>32</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/de/isaac.htm">Aesthetic Value of Regular Hexahedron</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="comet">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/hardship/usb.htm http://krang.dothome.co.kr/meaningless/hardship/everytime.htm http://krang.dothome.co.kr/meaningless/hardship/coffea.htm -->
+										</tr>
+										<tr>
+											<td>33</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/hardship/end.htm">Traffic Jam on the Crossroad <font color="red">❓</font></a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="1">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/enter/forest.htm http://krang.dothome.co.kr/meaningless/enter/subdeul.htm -->
+										</tr>
+										<tr>
+											<td>33</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/enter/hwijong.htm">Right for Suicide</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="ㅆ">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/surprising/answer.htm http://krang.dothome.co.kr/meaningless/surprising/accident.htm -->
+										</tr>
+										<tr>
+											<td>34</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/surprising/incident.htm">Sunlight Clearly Licked the Leaf</a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="AQTMW">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/peculiar/missing.htm http://krang.dothome.co.kr/meaningless/peculiar/youu.htm -->
+										</tr>
+										<tr>
+											<td>35</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/peculiar/star.htm">ANECDOTE ABOUT COMPLEMENTARY COLOR <font color="red">❓</font></a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="12">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/hospital/dentist.htm http://krang.dothome.co.kr/meaningless/hospital/physician.htm -->
+										</tr>
+										<tr>
+											<td>36</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/hospital/surgeon.htm">Vignette about Labyrinth <font color="red">❓</font></a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="98">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/nowtime/1222.htm -->
+										</tr>
+										<tr>
+											<td>37</td>
+											<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/nowtime/wow.htm">Hyperbaric Glasses <font color="red">❓</font></a></td>
+											<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+											<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="fragile">GET</a></td>
+                                            <!-- http://krang.dothome.co.kr/meaningless/finally/heaven.htm http://krang.dothome.co.kr/meaningless/finally/nohate.htm -->
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td><b><a target="_blank" href="                                    http://krang.dothome.co.kr/meaningless/finally/codegetget.htm"><font color="red">Code3</font></a><b></td>
+                                            <td></td>
+                                            <td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="A14"><b>GET</b></a></td>
+                                        </tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div id="schoolbell" class="col s12">
+						<table class="highlight centered">
+							<thead class="light-blue lighten-3">
+								<tr>
+									<th data-field="No">No</th>
+									<th data-field="Title">Title</th>
+									<th data-field="Hint">Hint</th>
+									<th data-field="Answer">Answer</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>17</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/funnier/kian.htm">Longing for Boredom</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="45">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/endof/startof.htm
+										http://krang.dothome.co.kr/meaningless/endof/nope.htm
+										http://krang.dothome.co.kr/meaningless/endof/jesus.htm -->
+								</tr>
+								<tr>
+									<td>18</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/endof/jesuss.htm">Collapse of the Sky</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="13">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/finishe/vanishe.htm -->
+								</tr>
+								<tr>
+									<td>19</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/finishe/eraa.htm">Exception in Perfection</a> <font color="red">❓</font></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="32">GET</a></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td><b><a target="_blank" href="http://krang.dothome.co.kr/meaningless/elder/hope.htm">Code Page</a><b></td>
+									<td></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="hopenotpub"><b>GET</b></a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/elder/kibo.htm http://krang.dothome.co.kr/meaningless/elder/people.htm -->
+								</tr>
+								<tr>
+									<td>20</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/elder/and.htm">Always Positive Mind</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="gulfofguinea">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/bob/eat.htm
+										http://krang.dothome.co.kr/meaningless/bob/ate.htm -->
+								</tr>
+								<tr>
+									<td>21</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/bob/eaten.htm">Naver says 'Good Bye'</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="water">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/gofor/walk.htm
+										http://krang.dothome.co.kr/meaningless/gofor/work.htm
+										http://krang.dothome.co.kr/meaningless/gofor/jog.htm -->
+								</tr>
+								<tr>
+									<td>22</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/gofor/final.htm">Every Tuesday in the Factory</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="도요토미히데요시">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/dae/donga.htm
+										http://krang.dothome.co.kr/meaningless/dae/gu.htm
+										http://krang.dothome.co.kr/meaningless/dae/fashion.htm -->
+								</tr>
+								<tr>
+									<td>23</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/dae/sumyu.htm">Elated Prisoners</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="spirit">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/nasa/bbajim.htm
+										http://krang.dothome.co.kr/meaningless/nasa/injung.htm
+										http://krang.dothome.co.kr/meaningless/nasa/jjal.htm
+										http://krang.dothome.co.kr/meaningless/nasa/goso.htm -->
+								</tr>
+								<tr>
+									<td>24</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/nasa/gosomi.htm">Doubtless Lie</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="이성계">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/yok/ryang.htm -->
+								</tr>
+								<tr>
+									<td>25</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/yok/endless.htm">HORSESHOE CRAB'S DEVOTION</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="갱생주">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/daee/yang.htm -->
+								</tr>
+								<tr>
+									<td>26</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/daee/chopin.htm">Elaborated Labyrinth</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="CTQBD">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/copy/cat.htm
+										http://krang.dothome.co.kr/meaningless/copy/nanda.htm -->
+								</tr>
+								<tr>
+									<td>27</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/copy/notstop.htm">Pediatrician Fancier</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="노론소론">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/icanseeit/ending.htm
+										http://krang.dothome.co.kr/meaningless/icanseeit/finally.htm -->
+								</tr>
+								<tr>
+									<td>28</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/icanseeit/yeah.htm">Obligate Decay</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="theoldmanandthesea">GET</a></td>
+								</tr>
+								<tr>
+									<td>29</td>
+									<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/imso/happy.htm">Hope, Hope</a></td>
+									<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="antiexpectorants">GET</a></td>
+									<!-- http://krang.dothome.co.kr/meaningless/imso/antiexpectorants.htm?id=antiexpectorants -->
+								</tr>
+								<tr>
+									<td></td>
+									<td><b><a target="_blank" href="                                    http://krang.dothome.co.kr/meaningless/fire/end.htm"><font color="red">Code2</font></a><b></td>
+									<td></td>
+									<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="S02"><b>GET</b></a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="type" class="col s12">
+				<table class="highlight centered">
+					<thead class="light-blue lighten-3">
+						<tr>
+							<th data-field="No">No</th>
+							<th data-field="Title">Title</th>
+							<th data-field="Hint">Hint</th>
+							<th data-field="Answer">Answer</th>
+						<tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td><b><a target="_blank" href="http://krang.dothome.co.kr/meaningless/outof/gravity.htm">Code Page</a><b></td>
+							<td></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="redshift"><b>GET</b></a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/outof/wing.htm -->
+						</tr>
+						<tr>
+							<td>12</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/outof/control.htm">Intrinsic Stereotype</a> <font color="red">❓</font></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="43">GET</a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/chemistry/love.htm -->
+						</tr>
+						<tr>
+							<td>13</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/chemistry/fl.htm">A Great Artist of Labyrinth</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="misdiagnosis">GET</a></td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/loopchange/thankyou.htm">Potential for Catastrophe</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="고려">GET</a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/medical/emergency.htm -->
+						</tr>
+						<tr>
+							<td>15</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/medical/hazard.htm">I'm willing to do that</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="olympus">GET</a></td>
+						</tr>
+						<tr>
+							<td>16</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/newtype/prototype.htm">CIRCLE RAINBOW</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="carnival">GET</a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/get/ice.htm -->
+						</tr>
+						<tr>
+							<td>17</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/get/yourbreathe.htm">D. Right, S. Left.</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="11345938">GET</a></td>
+						</tr>
+						<tr>
+							<td>18</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/finalnew/page.htm">Cute Thume</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="0">GET</a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/computer/magic.htm
+								http://krang.dothome.co.kr/meaningless/computer/command.htm 
+								http://krang.dothome.co.kr/meaningless/computer/input.htm -->
+						</tr>
+						<tr>
+							<td>19</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/computer/output.htm">Manifestation for Calamity</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="elise">GET</a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/ludwig/van.htm
+								http://krang.dothome.co.kr/meaningless/ludwig/yellow.htm -->
+						</tr>
+						<tr>
+							<td>20</td>
+							<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/ludwig/sulfur.htm">DISPERSED PRESUMPTION</a></td>
+							<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="pluto">GET</a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/asterisk/peculiar.htm -->
+						</tr>
+						<tr>
+							<td></td>
+							<td><b><a target="_blank" href="http://krang.dothome.co.kr/meaningless/asterisk/good.htm "><font color="red">Code1</font></a><b></td>
+							<td></td>
+							<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="A09"><b>GET</b></a></td>
+							<!-- http://krang.dothome.co.kr/meaningless/rain/heavily.htm
+								http://krang.dothome.co.kr/meaningless/rain/yes.htm -->
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+        
+        <!-- After Entrance -->
+        <div class="deep-orange text-lighten-2" style="text-align:center; font-size:2.1rem; color:white">There is another entrance...</div>
+        <table class="highlight centered">
+			<thead class="deep-orange lighten-2">
+				<tr>
+					<th data-field="No">No</th>
+					<th data-field="Title">Title</th>
+					<th data-field="Hint">Hint</th>
+					<th data-field="Answer">Answer</th>
+				<tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/entrance.htm" style="color:#ff8a65">Entrance</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('36', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="1N3L">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/apartkl.htm -->
+				</tr>   
+				<tr>
+					<td></td>
+					<td><b><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/entranceee.htm" style="color:#ff8a65">Code Page</a></b></td>
+					<td></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="50" data-tooltip="theapartisruined"><b>GET</b></a></td>
+					<!-- http://krang.dothome.co.kr/meaningless/apart/reminder.htm http://krang.dothome.co.kr/meaningless/apart/waking.htm -->
+				</tr>
+				<tr>
+					<td>2</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/him.htm" style="color:#ff8a65">He Leaves Much to be Desired</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="newborn">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/doctor/revenge.htm http://krang.dothome.co.kr/meaningless/apart/doctor/fetus.htm http://krang.dothome.co.kr/meaningless/apart/doctor/bomb.htm http://krang.dothome.co.kr/meaningless/apart/doctor/good.htm -->
+				</tr>
+				<tr>
+					<td>3</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/doctor/jar.htm" style="color:#ff8a65">Lost, But not Forgotten</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="sky">GET</a></td>
+					<!-- http://krang.dothome.co.kr/meaningless/apart/longtime/nosee.htm http://krang.dothome.co.kr/meaningless/apart/longtime/heaven.htm http://krang.dothome.co.kr/meaningless/apart/longtime/letter.htm http://krang.dothome.co.kr/meaningless/apart/longtime/enter.htm -->
+				</tr>
+				<tr>
+					<td>4</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/longtime/10.htm" style="color:#ff8a65">Permission Unaccepted</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="blind">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/vlind/o.htm http://krang.dothome.co.kr/meaningless/apart/vlind/go.htm -->
+				</tr>
+				<tr>
+					<td>5</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/vlind/hoo.htm" style="color:#ff8a65">MEANING THEORY</a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="06h15min">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/suicide/familiar.htm http://krang.dothome.co.kr/meaningless/apart/suicide/logme.htm -->
+				</tr>
+				<tr>
+					<td>6</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/suicide/java.htm" style="color:#ff8a65">HELLO VECTOR! <font color="red">❓</font></a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="0ceiiccbicc">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/owari/sekaino.htm http://krang.dothome.co.kr/meaningless/apart/owari/hime.htm -->
+				</tr>
+				<tr>
+					<td>7</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/owari/sou.htm" style="color:#ff8a65">will you just wait until i die? <font color="red">❓</font></a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="doodle">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/joke/just.htm http://krang.dothome.co.kr/meaningless/apart/joke/speaker.htm http://krang.dothome.co.kr/meaningless/apart/joke/nekoboro.htm http://krang.dothome.co.kr/meaningless/apart/joke/jyoudan.htm-->
+				</tr>
+				<tr>
+					<td>8</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/joke/glasses.htm" style="color:#ff8a65">SO, WHAT WAS THE TOPIC? <font color="red">❓</font></a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="김불이">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/novel/best.htm http://krang.dothome.co.kr/meaningless/apart/novel/seller.htm http://krang.dothome.co.kr/meaningless/apart/novel/good.htm -->
+				</tr>
+				<tr>
+					<td>9</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/novel/perfect.htm" style="color:#ff8a65">Locomotive in my old memory <font color="red">❓</font></a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="1103116">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/home/parents.htm http://krang.dothome.co.kr/meaningless/apart/home/office.htm http://krang.dothome.co.kr/meaningless/apart/home/cab.htm http://krang.dothome.co.kr/meaningless/apart/home/ohmygod.htm -->
+				</tr>
+				<tr>
+					<td>10</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/home/cat.htm" style="color:#ff8a65">Stream of Consciousness <font color="red">❓</font></a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="pambansangwatawat">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/hard/univ.htm http://krang.dothome.co.kr/meaningless/apart/hard/gogo.htm -->
+				</tr>
+				<tr>
+					<td>11</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/hard/whynot.htm" style="color:#ff8a65">With respect to meaninglessness <font color="red">❓</font></a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="taylorswift">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/mungwa/die.htm http://krang.dothome.co.kr/meaningless/apart/mungwa/death.htm -->
+				</tr>
+				<tr>
+					<td>12</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/mungwa/future.htm" style="color:#ff8a65">Niche for Labyrinth <font color="red">❓</font></a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="tearnmiss">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/ngd/hard.htm http://krang.dothome.co.kr/meaningless/apart/ngd/goodnight.htm -->
+				</tr>
+				<tr>
+					<td>13</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/ngd/determination.htm" style="color:#ff8a65">Agent Plagiarism <font color="red">❓</font></a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="百十六">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/thank/effort.htm http://krang.dothome.co.kr/meaningless/apart/thank/deepsea.htm -->
+				</tr>
+				<tr>
+					<td>14</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/thank/closer.htm" style="color:#ff8a65">The Hanging Man <font color="red">❓</font></a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="아름다워">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/worry/jackson.htm http://krang.dothome.co.kr/meaningless/apart/worry/resistance.htm -->
+				</tr>
+				<tr>
+					<td>15</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/worry/headache.htm" style="color:#ff8a65">Into the abyss with you <font color="red">❓</font></a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="credits">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/genius/good.htm -->
+				</tr>
+				<tr>
+					<td>16</td>
+					<td><a target="_blank" href="http://krang.dothome.co.kr/meaningless/apart/genius/risk.htm" style="color:#ff8a65">Give Your Breath to Labyrinth <font color="red">❓</font></a></td>
+					<td><a class="btn btn-flat" style="padding:0 20px 0 20px;" onclick="Materialize.toast('Naaaah!', 3000)">!</a></td>
+					<td><a class="btn tooltipped btn-flat" style="padding:0 20px 0 20px;" data-position="top" data-delay="" data-tooltip="">GET</a></td>
+                    <!-- http://krang.dothome.co.kr/meaningless/apart/genius/good.htm http://krang.dothome.co.kr/meaningless/apart/genius/risk.htm -->
+				</tr>
+            </tbody>
+        </table>                
+	</body>
+</html>
